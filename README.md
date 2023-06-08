@@ -11,7 +11,7 @@ The Library Management System is a web-based application developed using Flask, 
 - Data storage: The application stores the library data in an XML file for persistence.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/library-management-system.git`
+1. Clone the repository: `git clone https://github.com/assiltarhouni/library-management-system.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the application: `python app.py`
 4. Open a web browser and go to `http://localhost:5000` to access the Library Management System.
