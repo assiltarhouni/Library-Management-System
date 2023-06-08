@@ -1,0 +1,20 @@
+<books>
+  <book>
+    <title>The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <year>1925</year>
+	<type>book</type>
+  </book>
+  <book>
+    <title>To Kill a Mockingbird</title>
+    <author>Harper Lee</author>
+    <year>1960</year>
+	<type>book</type>
+  </book>
+  <book>
+    <title>Financial Report 2022</title>
+    <author>John Doe</author>
+    <year>2022</year>
+    <type>rapport</type>
+  </book>
+</books>

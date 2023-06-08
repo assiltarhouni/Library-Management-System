@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Library</title>
+    <link rel="stylesheet" href="../static/library.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Library</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody id="book-list">
+          {% for book in books %}
+          <tr>
+            <td>{{ book.title }}</td>
+            <td>{{ book.author }}</td>
+            <td>{{ book.year }}</td>
+            <td>{{ book.type }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Library Inc.</p>
+    </footer>
+  </body>
+</html>

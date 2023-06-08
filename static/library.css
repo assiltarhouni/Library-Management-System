@@ -1,0 +1,105 @@
+header {
+  background-color: #2C3E50;
+  color: ivory;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+nav {
+  background-color: #2C3E50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+a {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: lightgreen;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+
+/* Main content section styling */
+main {
+  background-color: ivory;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  background-color: #00563f;
+  color: ivory;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+
+/* Footer styling */
+footer {
+  background-color: #2C3E50;
+  color: ivory;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+footer p {
+  font-size: 1.5rem;
+}

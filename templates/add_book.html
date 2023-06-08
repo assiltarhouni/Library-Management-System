@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../static/add_book.css">
+	<title>Add a Book/PFE Report</title>
+</head>
+<body>
+	<div class="header">
+		<h1>Library Management System</h1>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/library">View the Library</a></li>
+			<li><a href="/search">Search the Library</a></li>
+		</ul>
+	</div>
+	<div class="container">
+		<h2>Add a Book/PFE Report</h2>
+		<form method="post" action="/add_book">
+			<label>Title:</label><br>
+			<input type="text" name="title" required><br>
+			<label>Author:</label><br>
+			<input type="text" name="author" required><br>
+			<label>Publisher:</label><br>
+			<input type="text" name="publisher" required><br>
+			<label>Year:</label><br>
+			<input type="text" name="year" required><br>
+			<label>Type:</label><br>
+			<select name="type">
+				<option value="book">Book</option>
+				<option value="pfe_report">PFE Report</option>
+			</select><br>
+			<br>
+			<input type="submit" value="Add">
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+    background-color: #99afd1f2;
+    color: #630e0e;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("https://img.freepik.com/premium-photo/rows-books-library_73152-2680.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+.container {
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #021e46;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000500;
+    font-size: 18px;
+}
+
+form input[type="text"], form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2d6196;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    background-color: #133a74;
+    color: #F8F9FA;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0069D9;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+form .form-group select {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #F8F9FA;
+    color: #343A40;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    color: #343A40;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.menu a:hover {
+    color: #F8F9FA;
+    background-color: #343A40;
+}
